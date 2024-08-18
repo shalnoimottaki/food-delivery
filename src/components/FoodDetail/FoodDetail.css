@@ -1,0 +1,68 @@
+.food-detail {
+    position: relative;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.food-detail h2 {
+    text-align: left; /* محاذاة النص لليسار */
+    margin-left: 10px; /* إضافة مساحة من اليسار إذا لزم الأمر */
+}
+
+.food-detail-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    align-items: flex-start; /* تأكد من أن العناصر تكون في الأعلى */
+}
+
+.food-detail .desc {
+    color: #676767;
+    text-align: left;
+    max-width: 50%; /* تحديد الحد الأقصى لعرض الوصف ليكون نصف عرض الحاوية */
+    overflow-wrap: break-word; /* كسر الكلمات الطويلة لتجنب تجاوز العرض */
+    margin-left: 12px;
+}
+
+.food-detail .price {
+    color: tomato;
+    font-size: 32px;
+    font-weight: 600;
+    margin-right: 18px;
+}
+.food-detail img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.food-detail-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.food-detail-title {
+    font-size: 24px;
+    color: tomato; /* اختر اللون الذي يتناسب مع تصميمك */
+    margin-bottom: 20px;
+    text-align: left; /* محاذاة النص لليسار */
+    margin-left: 10px; /* إضافة مساحة من اليسار إذا لزم الأمر */
+}
+
+@media (max-width: 750px) {
+    .food-detail {
+        margin: 12px;
+      }
+      .food-detail .desc {
+        font-size: 12px;
+      }
+}

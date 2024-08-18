@@ -1,0 +1,162 @@
+.place-order{
+    display: flex;
+    margin-top: 100px;
+    border: 2px solid #E1E8EE;
+    box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.10);
+    animation: fadeIn 3s;
+    align-items: start;
+    justify-content: space-between;
+    gap: 50px;
+}
+.place-order .place-order-left{
+    margin: 20px;
+}
+.place-order .place-order-right{
+    margin: 20px;
+}
+.place-order .place-order-left .title{
+    color: grey;
+    font-size: max(1vw, 30px);
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.place-order .place-order-left input{
+    margin-bottom: 15px;
+    width:100%;
+    padding: 10px;
+    border-radius: 4px;
+    outline-color:tomato;
+}
+.place-order .place-order-left .multi-fields{
+    display: flex;
+    gap:10px;
+}
+.place-order .place-order-right{
+    width:100%;
+    max-width:max(40%,500px);
+
+}
+.place-order .place-order-right .paiment-v {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.place-order .place-order-right .paiment-v img {
+    max-width: 100%; 
+    height: auto;
+    object-fit: contain;
+    max-height: 180px; 
+}
+
+.place-order .place-order-right .cart-total {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 20px;
+}
+.place-order .place-order-right .cart-total h2 {
+    color: grey;
+    font-weight: 600;
+    font-size: max(1vw, 30px);
+}
+
+.place-order .place-order-right .cart-total .cart-total-details {
+    display: flex;
+    justify-content: space-between;
+    color: #555;
+}
+
+.place-order .place-order-right .cart-total .cart-total-details b {
+    color: rgb(218, 86, 86);
+}
+
+.place-order .place-order-right .cart-total button {
+    border: none;
+    color: white;
+    background-color: tomato;
+    box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.10);
+    width: max(15vw, 200px);
+    padding: 12px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.place-order .place-order-right .cart-total button:hover {
+    transform: scale(1.05);
+}
+
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+    .place-order {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .place-order .place-order-left, .place-order .place-order-right {
+        margin: 10px;
+        width: 84%;
+    }
+
+    .place-order .place-order-left .title {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .place-order .place-order-right .paiment-v {
+        width: 90%;
+    }
+
+    .place-order .place-order-right .paiment-v img {
+        max-height: 120px;
+    }
+
+    .place-order .place-order-right .cart-total {
+        margin-top: 20px;
+    }
+
+    .place-order .place-order-right .cart-total h2 {
+        font-size: 24px;
+    }
+
+    .place-order .place-order-right .cart-total button {
+        width: 100%;
+        padding: 12px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .place-order {
+        gap: 30px;
+    }
+
+    .place-order .place-order-left {
+        margin: 15px;
+    }
+
+    .place-order .place-order-right {
+        margin: 15px;
+    }
+
+    .place-order .place-order-left .title {
+        font-size: 28px;
+    }
+
+    .place-order .place-order-right .paiment-v {
+        width: 85%;
+    }
+
+    .place-order .place-order-right .paiment-v img {
+        max-height: 150px;
+    }
+
+    .place-order .place-order-right .cart-total h2 {
+        font-size: 28px;
+    }
+}
