@@ -19,3 +19,30 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features 
+⚡️ Sign-In Page: Users can enter their credentials to access enhanced features. <br>
+
+ ![screenshot](s3.png)   ![screenshot](s2.png)
+
+⚡️ Menu Exploration: Users can browse the restaurant's menu, with items organized by various food categories.
+
+  ![screenshot](s4.png)
+
+⚡️ Adding to Cart: Users can select and add items to their cart directly from the menu.
+
+  ![screenshot](s1.png)
+
+⚡️ Cart Management: Users can review their cart, adjust item quantities, and finalize their purchase.
+
+  ![screenshot](s7.png)    ![screenshot](s6.png)
+
+⚡️ Order Placement: Users can enter their delivery details and submit their orders.
+
+  ![screenshot](s5.png) 
+
+
+
+
+
+
+
