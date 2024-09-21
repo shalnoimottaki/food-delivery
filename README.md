@@ -24,23 +24,23 @@ Currently, two official plugins are available:
 ## Features 
 ⚡️ Sign-In Page: Users can enter their credentials to access enhanced features. <br>
 
- ![screenshoot](s3.png)   ![screenshoot](s2.png)
+ ![screenshot](screenshoot/s3.png)   ![screenshot](screenshoot/s2.png)
 
 ⚡️ Menu Exploration: Users can browse the restaurant's menu, with items organized by various food categories.
 
-  ![screenshoot](s4.png)
+  ![screenshot](screenshoot/s4.png)
 
 ⚡️ Adding to Cart: Users can select and add items to their cart directly from the menu.
 
-  ![screenshoot](s1.png)
+  ![screenshot](screenshoot/s1.png)
 
 ⚡️ Cart Management: Users can review their cart, adjust item quantities, and finalize their purchase.
 
-  ![screenshoot](s7.png)    ![screenshoot](s6.png)
+  ![screenshot](screenshoot/s7.png)    ![screenshot](screenshoot/s6.png)
 
 ⚡️ Order Placement: Users can enter their delivery details and submit their orders.
 
-  ![screenshoot](s5.png) 
+  ![screenshot](screenshoot/s5.png) 
 
 
 
