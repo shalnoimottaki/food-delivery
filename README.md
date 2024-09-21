@@ -2,7 +2,7 @@
 
 This sophisticated React application is designed to offer a seamless restaurant experience. Users can effortlessly browse the menu, add selections to their cart, place orders, and finalize their purchase through an intuitive checkout process. The platform features a responsive layout and utilizes React Router to facilitate efficient navigation throughout the application.
 
-To view the demo: [click here](https://mottakifoods.rf.gd)
+To view the demo: [click here](https://mootakifoods.rf.gd)
 
 # Tech Stack
 
